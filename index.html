@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>    
+        <meta charset="UTF-8">>
+        <script type="text/javascript" src="script.js"></script>
+        <title>Criptogragria Alura</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+   <body>
+    <header>
+        <img id="logo" src="logo.png">
+    </header>    
+
+        <div>
+             <textarea id="texto" placeholder="Digite seu texto"></textarea>
+        </div>
+
+        <div id="button">
+            <button id="criptografar" onclick="criptografa()">Criptografar</button>
+            <button id="descriptografar" onclick="descriptografa()">Descriptografar</button>
+        </div>
+
+        <div id="saida">
+            <div id="digiteTexto">
+                <img id="desenho" src="vetor.png">
+                <h2>Sua mensagem aparecerá aqui!</h2>
+                <p>Digite um texto que você deseja criptografar ou descriptografar
+            </div>
+
+            <div id="resultado">
+                <textarea id="textoSaida"></textarea>   
+                <button id="copiar" onclick="copia()">Copiar</button>
+            </div>
+            
+        </div>
+        
+   </body>
+
+
+        </html>
